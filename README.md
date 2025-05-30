@@ -4,18 +4,15 @@
 
 This repository provides a simple API to access verses from the Bible directly from GitHub. The verses are available in JSON format.
 
-# Postman
-
-Check out the API versions here: [API on Postman](https://documenter.getpostman.com/view/11242574/2sA3Qy7VeH)
 
 # Endpoints
 
 ## Bible
 
-To access the Bible translations, use the following endpoint (find the right book-ID beneeth):
+To access the Bible translations, use the following endpoint (find the right book-id beneeth):
 
 ```
-https://raw.githubusercontent.com/biensurerodezee/bible/main/{language}/{book-ID}/{book-ID}.json
+https://raw.githubusercontent.com/biensurerodezee/bible/main/{language}/{book-id}/{book-id}.json
 ```
 
 ### Try:
@@ -35,7 +32,7 @@ https://raw.githubusercontent.com/biensurerodezee/bible/main/{language}/{bible-v
 ### Try:
 
 ```sh
-curl https://raw.githubusercontent.com/biensurerodezee/bible/main/pt-br/arc/gn/gn.json
+curl https://raw.githubusercontent.com/biensurerodezee/bible/main/en/gn/gn.json
 ```
 
 ## Chapter and Verse
@@ -49,7 +46,7 @@ https://raw.githubusercontent.com/biensurerodezee/bible/main/{language}/{bible-v
 ### Try:
 
 ```sh
-curl https://raw.githubusercontent.com/biensurerodezee/bible/main/pt-br/arc/2ch/2/1.json
+curl https://raw.githubusercontent.com/biensurerodezee/bible/main/en/2ch/2/1.json
 ```
 
 
