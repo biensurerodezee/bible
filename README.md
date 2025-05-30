@@ -7,9 +7,9 @@ This repository provides a simple API to access verses from the Bible directly f
 
 # Endpoints
 
-## Bible
+## By Language and Bible Books
 
-To access the Bible translations, use the following endpoint (find the right book-id beneeth):
+To access specific books within a Bible version, use this endpoint:
 
 ```
 https://raw.githubusercontent.com/biensurerodezee/bible/main/{language}/{book-id}/{book-id}.json
@@ -21,26 +21,12 @@ https://raw.githubusercontent.com/biensurerodezee/bible/main/{language}/{book-id
 curl https://raw.githubusercontent.com/biensurerodezee/bible/main/en/gn/gn.json
 ```
 
-## Books
-
-To access specific books within a Bible version, use this endpoint:
-
-```
-https://raw.githubusercontent.com/biensurerodezee/bible/main/{language}/{bible-version}/{book-id}/{book-id}.json
-```
-
-### Try:
-
-```sh
-curl https://raw.githubusercontent.com/biensurerodezee/bible/main/en/gn/gn.json
-```
-
-## Chapter and Verse
+## By Language, Bible, Chapter and Verse
 
 To access specific chapters and verses within a book, use the following endpoint:
 
 ```
-https://raw.githubusercontent.com/biensurerodezee/bible/main/{language}/{bible-version}/{book-id}/{chapter}/{verse}.json
+https://raw.githubusercontent.com/biensurerodezee/bible/main/{language}/{book-id}/{chapter}/{verse}.json
 ```
 
 ### Try:
