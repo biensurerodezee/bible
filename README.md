@@ -117,12 +117,17 @@ The summary endpoint provides an overview of available languages and versions. F
 | ----------- | -------------- | ---------- |
 | ko          | Korean Version | ko         |
 
-### Portuguese 🇧🇷🇵🇹
+### Portuguese 🇵🇹
 
 | Language ID | Version Name                      | Version ID |
 | ----------- | --------------------------------- | ---------- |
-| pt-br       | Almeida Corrigida e Revisada Fiel | acf        |
-| pt-br       | Nova Versão Internacional         | nvi        |
+| pt          | Nova Versão Internacional         | nvi        |
+
+### Brazil 🇧🇷
+
+| Language ID | Version Name                      | Version ID |
+| ----------- | --------------------------------- | ---------- |
+| br          | Almeida Corrigida e Revisada Fiel | acf        |
 
 
 ### Romanian 🇷🇴
