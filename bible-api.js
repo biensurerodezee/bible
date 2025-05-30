@@ -21,7 +21,7 @@ export default {
     { "id": "et", "pt": "Ester", "en": "Esther", "fr": " Esther", "es": "Ester" },
     { "id": "job", "pt": "Jó", "en": "Job", "fr": " Job", "es": "Job" },
     { "id": "ps", "pt": "Salmos", "en": "Psalm", "fr": " Psaume", "es": "Salmos" },
-    { "id": "pr", "pt": "Provérbios", "en": "Proverbs", "fr": "Proverbes", "es": "Proverbios" },
+    { "id": "prv", "pt": "Provérbios", "en": "Proverbs", "fr": "Proverbes", "es": "Proverbios" },
     { "id": "ec", "pt": "Eclesiastes", "en": "Ecclesiastes", "fr": "Ecclésiaste", "es": "Eclesiastés" },
     { "id": "so", "pt": "Cânticos", "en": "Songs of Solomon", "fr": "Cantique des Cantiqu", "es": "Cantar de los Cantares" },
     { "id": "is", "pt": "Isaías", "en": "Isaiah", "fr": "Ésaïe", "es": "Isaías" },
